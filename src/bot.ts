@@ -258,6 +258,8 @@ client.on('command', async (context) => {
             )
         ]
     }, true)
+  } else if (context.name === 'bans') {
+    await context.reply("yolo");
   }
 });
 

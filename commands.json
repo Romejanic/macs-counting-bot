@@ -39,6 +39,16 @@
 
     "stats": {
         "description": "Shows how many users have been excluded since channel creation"
+    },
+
+    "bans": {
+        "description": "Shows how many bans a user has gotten",
+        "options": {
+            "target": {
+                "description": "The user to view",
+                "type": "user"
+            }
+        }
     }
 
 }
